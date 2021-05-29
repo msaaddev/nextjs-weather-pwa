@@ -1,6 +1,6 @@
 {
 	"name": "GeoWeather",
-	"short_name": "GW",
+	"short_name": "GeoWeather",
 	"icons": [
 		{
 			"src": "/sun-128x128.png",
