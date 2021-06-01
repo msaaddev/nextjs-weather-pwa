@@ -4,7 +4,7 @@ const SEO = () => {
 	return (
 		<Head>
 			<title>GeoWeather – One stop to get all weather information</title>
-			<meta charset="UTF-8" />
+			<meta charSet="UTF-8" />
 			<meta
 				name="viewport"
 				content="width=device-width, initial-scale=1.0"
