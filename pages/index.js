@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Homepage from '../components/Homepage';
 import SEO from '../components/SEO';
 
 export async function getStaticProps() {
@@ -20,6 +21,7 @@ export default function Home({ data }) {
 	return (
 		<>
 			<SEO />
+			<Homepage geoData={data} />
 		</>
 	);
 }
