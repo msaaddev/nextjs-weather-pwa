@@ -8,6 +8,7 @@ const Weather = ({ geoData }) => {
 	const [date, setDate] = useState(currentDate());
 
 	useEffect(() => {
+		console.log(city);
 		weather();
 	}, []);
 
