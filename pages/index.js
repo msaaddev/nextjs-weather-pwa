@@ -2,7 +2,7 @@ import axios from 'axios';
 import Weather from '../components/Weather';
 import SEO from '../components/SEO';
 
-export async function getStaticProps() {
+export async function getServerSideProps(context) {
 	const res = await axios.get(`https://ipwhois.app/json/`);
 	const data = res.data;
 
